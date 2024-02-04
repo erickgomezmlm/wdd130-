@@ -1,24 +1,49 @@
-body{
-    
-    background-color: aqua;
+#background {
+    height: 500px;
+    background-color: rgb(99, 85, 63);
+}
+
+.msg {
+
+    background-color: rgb(145, 145, 145);
+
 
 }
 
-header{
 
-    background-color: blueviolet;
-
-
+body {
+    background-color: #e7d4f3; 
+    text-align: center;
 }
 
 
-h1{
-
-    font-size: 6em;
+header {
+    background-color: aquamarine
 }
 
-p{
 
-    font-size: 1em;
-    color: brown;
+
+footer {
+    background-color: rgb(119, 107, 89);
+}    
+      
+
+
+nav a:hover {
+    background-color: black;
+    color: #efd5b2;
+}   
+
+
+
+.icon {
+    width: 80px;
 }
+
+
+
+nav a {
+    text-align: center;
+    color: #4e74ff;
+    text-decoration: none;
+} 
