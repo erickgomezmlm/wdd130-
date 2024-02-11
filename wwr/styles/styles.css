@@ -1,49 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Coming+Soon&display=swap');
+
+
 #background {
     height: 500px;
     background-color: rgb(99, 85, 63);
+    margin-bottom: 100px;
 }
 
-.msg {
-
-    background-color: rgb(145, 145, 145);
-
-
-}
 
 
 body {
-    background-color: #e7d4f3; 
+    background-color:  #C4AF9A; 
     text-align: center;
+    font-family: "Comic Neue", sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
 }
 
 
 header {
-    background-color: aquamarine
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 1em;
+    background-color: #d39180
+    
 }
 
 
 
 footer {
     background-color: rgb(119, 107, 89);
+    text-align: left;
 }    
       
 
 
 nav a:hover {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: #efd5b2;
 }   
 
+/*classes here*/
 
+.home-title{
+    font-family: "Coming soon", sans-serif;
+    font-size: 3em;
 
-.icon {
-    width: 80px;
 }
 
+.msg {
+    background-color: rgb(145, 145, 145);
+    padding-top: 2em;
+    padding-bottom: 3em;
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+.Logo {
+    
+    margin-bottom: 20px;}
+.icon {
+    size: 80px;
+}
+
+.Rivers-card, .Camping-card, .Rapids-card {
+    padding: 5em;
+    
+    
+    
+    
+}
+/*classes end*/
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 
+}
 nav a {
     text-align: center;
-    color: #4e74ff;
+    color: #000000;
     text-decoration: none;
+    padding: 1em;
 } 
+
+.card-img {
+    border: 10px solid #d9c2a3;
+
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.top-link {
+    font-size: 4em;
+}
+
